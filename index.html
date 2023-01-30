@@ -2,29 +2,49 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        
         <!-- HERO SECTION -->
-        <div>
-            <h1>Visit Trestles</h1>
+        <header class="header">
+            <h1 >Visit Trestles</h1>
             <h2>Enjoy one of the best surf spots in California.</h2>
-        </div>
+        </header>
         
         <!-- ACTIVITIES SECTION -->
-        <div>
-            <h3>Top three activities to do at Torshov</h3>
-            <img src="images/rivy.jpg">
-            <img src="images/theatre.jpg">
-            <img src="images/sports.jpg">
-        </div>
+        <section class="surf-breaks-section">
+            <h3 id="surf-breaks-title"> Top three surf breaks at Trestles</h3>
+            <div class="columns">
+                <div class="lowers">
+                    <img id="surfers"src="images/lowers-surfer.jpg">
+                    <H4> Lowers</H4>
+                    <p> Perfect A-frame point break with rights and lefts</p>
+                </div>
+
+                <div class="uppers">
+                    <img id="surfers"src="images/uppers-surfer.jpg">
+                    <H4> Uppers</H4>
+                    <p>High qualty right hand point break with long walls</p>
+                </div>
+
+                <div class="cottons">
+                    <img id="surfers"src="images/cottons-surfer.jpg">
+                    <H4> Cottons</H4>
+                    <p> Softer point break wave with longer lefts than rights </p>
+                </div>   
+            </div>
+        </section>
 
         <!-- GUIDE SECTION -->
-        <div>
-            <h3>Your guide</h3>
-            <p>"I have lived at Torshov for over 30 years, so I can show you all of its best parts and hidden secrets."</p>
-            <h4>Michael Miller</h4>
-            <img src="images/per.jpg">
+        <div class="card">
+            <img id="guide"src="images/rivy.jpg">
+            <div>
+                <h3>Your guide</h3>
+                <p>"I have lived in San Clemente for over 30 years, so I can show you all of its best parts and hidden secrets of Trestles."</p>
+                <h4>Michael Miller</h4>
+            </div>
         </div>
     </body>
 </html>
